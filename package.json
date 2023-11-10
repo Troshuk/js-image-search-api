@@ -1,0 +1,32 @@
+{
+  "name": "js-image-search-api",
+  "version": "2.0.0",
+  "description": "",
+  "homepage": "https://troshuk.github.io/js-image-search-api",
+  "scripts": {
+    "start": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /js-image-search-api/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/troshuk/js-image-search-api.git"
+  },
+  "keywords": [],
+  "author": "Denys Troshuk <troshuk@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/troshuk/js-image-search-api/issues"
+  },
+  "dependencies": {
+    "flatpickr": "^4.6.13",
+    "modern-normalize": "^1.1.0",
+    "notiflix": "^3.2.6"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.6.0",
+    "parcel": "^2.6.0",
+    "parcel-reporter-clean-dist": "^1.0.4",
+    "posthtml-include": "^1.7.4"
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead"
+}
